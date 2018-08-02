@@ -1,0 +1,322 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+	padding-bottom: 0px !important;
+}
+.clear{
+    clear:both;
+}
+.imgdiv{
+    border: 1px solid #7d7d7d;
+    padding: 10px 10px 0px 0px;
+    width: auto;
+    min-width: 265px;
+    float: left;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+.last-btn{
+		    display: inline-block;
+    position: relative;
+    float: right;
+    padding: 6px 12px;
+    margin-left: -9px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.first-btn{
+	    display: inline-block;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.add-button{
+    float: right;
+    font-weight: 700;
+	background: #00c044;
+    color: #fff;
+    padding: 1px 16px;
+    border-radius: 8px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 80px !important;
+}
+.pull-left {
+    font-size: 14px !important;
+}
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd !important;
+    padding-top: 20px  !important;
+	margin:0px!important;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+.photo {
+    border: 1px solid #aaa;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+.label{
+    padding: 2px !important;
+    width: 30px ;
+}
+.block{
+    display: block !important;
+}
+.pointer{
+    cursor: pointer;
+}
+#info-window{
+    display: none;
+    position: fixed;
+    right: 20px;
+    width: 300px;
+    padding: 5px;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.a-manager{
+    color:#333;
+    text-decoration: none;
+}
+.a-manager:hover{
+    text-decoration: none;
+    color:#333;
+}
+.status_m{
+    background-color: #faa;
+}
+.status_s{
+    background-color: #ffa;
+}
+.protocol_result_table td{
+    text-align: center;
+    vertical-align: middle !important;
+    padding: 0;
+}
+.grid-view td.action-column {
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.1em;
+    max-width: 7em;
+}
+.player-status{
+    width:50px;
+    display:block;
+}
+.navbar-header{
+    position: relative;
+}
+#message-count{
+    position:absolute;
+    right:-8px;
+    top:8px;
+    background-color: #008;
+    color:white;
+    font-weight: bold;
+    border-radius: 20px;
+    width:20px;
+    height:20px;
+    font-size: 14px;
+    text-align: center;
+}
+.input-file-row-1:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.input-file-row-1{
+    display: inline-block;
+	margin-top: 25px;
+	position: relative;
+}
+
+html[xmlns] .input-file-row-1{
+    display: block;
+}
+
+* html .input-file-row-1 {
+    height: 1%;
+}
+
+.upload-file-container { 
+	position: relative; 
+	width: 100px; 
+	height: 137px; 
+	overflow: hidden;	
+	background: url(http://i.imgur.com/AeUEdJb.png) top center no-repeat;
+	float: left;
+	margin-left: 23px;
+} 
+
+.upload-file-container:first-child { 
+	margin-left: 0;
+} 
+
+.upload-file-container > img {
+	width: 93px;
+	height: 93px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.upload-file-container-text{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #719d2b;
+	line-height: 17px;
+	text-align: center;
+	display: block;
+	position: absolute; 
+	left: 0; 
+	bottom: 0; 
+	width: 100px; 
+	height: 35px;
+}
+
+.upload-file-container-text > span{
+	border-bottom: 1px solid #719d2b;
+	cursor: pointer;
+}
+
+.upload-file-container input  { 
+	position: absolute; 
+	left: 0; 
+	bottom: 0; 
+	font-size: 1px; 
+	opacity: 0;
+	filter: alpha(opacity=0);	
+	margin: 0; 
+	padding: 0; 
+	border: none; 
+	width: 70px; 
+	height: 50px; 
+	cursor: pointer;
+}
+
+input[type=submit] , button[type=submit] , input[type=button]{
+    background: #009fb8;
+    color: #fff;
+    padding: 4px 28px;
+
+	    float: right;
+    border: none;
+    border-radius: 0px;
+}
+.del-button{
+    cursor: pointer;
+    margin: 15px;
+    background: #ff0000 !important;
+}
+.form-control{
+	padding: 3px !important;
+}
+
+.table.table-striped tr:hover{
+    background: #ababab;
+}
+.table-bordered>tbody>tr>td, 
+.table-bordered>tbody>tr>th, 
+.table-bordered>tfoot>tr>td, 
+.table-bordered>tfoot>tr>th, 
+.table-bordered>thead>tr>td, 
+.table-bordered>thead>tr>th{
+    word-wrap: break-word;
+    max-width: 460px;
+}
